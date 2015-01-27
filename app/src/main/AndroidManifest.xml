@@ -33,21 +33,15 @@
                 android:value="bealder.natixis.WelcomeActivity" />
         </activity>
         <activity
-            android:name="bealder.natixis.ContactActivity"
-            android:label="@string/title_activity_contact"
+            android:name=".MentionActivity"
+            android:label="@string/title_activity_mentions"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="bealder.natixis.WeatherActivity"
-            android:label="@string/title_activity_weather"
+            android:name=".AboutActivity"
+            android:label="@string/title_activity_about"
             android:screenOrientation="portrait" >
         </activity>
-
-        <service
-            android:name="bealder.natixis.DownloadWeatherService"
-            android:enabled="true"
-            android:exported="true" >
-        </service>
     </application>
 
 </manifest>

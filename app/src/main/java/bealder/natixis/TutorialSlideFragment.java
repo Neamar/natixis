@@ -1,9 +1,5 @@
 package bealder.natixis;
 
-/**
- * Created by neamar on 12/13/14.
- */
-
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -11,9 +7,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-/**
- * Created by neamar on 12/13/14.
- */
 public class TutorialSlideFragment extends Fragment {
 		public int[] PAGES = new int[]{R.layout.fragment_tutorial_slide_1, R.layout.fragment_tutorial_slide_2, R.layout.fragment_tutorial_slide_3};
 

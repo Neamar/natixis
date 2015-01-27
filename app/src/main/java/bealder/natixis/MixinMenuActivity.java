@@ -13,11 +13,11 @@ public class MixinMenuActivity {
 				if (!(currentActivity instanceof WelcomeActivity)) {
 						addMenuListener(currentActivity, R.id.menu_welcome, WelcomeActivity.class);
 				}
-				if (!(currentActivity instanceof WeatherActivity)) {
-						addMenuListener(currentActivity, R.id.menu_weather, WeatherActivity.class);
+				if (!(currentActivity instanceof AboutActivity)) {
+						addMenuListener(currentActivity, R.id.menu_about, AboutActivity.class);
 				}
-				if (!(currentActivity instanceof ContactActivity)) {
-						addMenuListener(currentActivity, R.id.menu_contact, ContactActivity.class);
+				if (!(currentActivity instanceof MentionActivity)) {
+						addMenuListener(currentActivity, R.id.menu_mentions, MentionActivity.class);
 				}
 		}
 
