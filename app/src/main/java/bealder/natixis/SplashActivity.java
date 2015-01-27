@@ -16,9 +16,6 @@ public class SplashActivity extends Activity {
 				super.onCreate(savedInstanceState);
 				setContentView(R.layout.activity_splash);
 
-				// Start in the background the service to download the Weather
-				startService(new Intent(this, DownloadWeatherService.class));
-
 				new Handler().postDelayed(new Runnable() {
 
             /*
