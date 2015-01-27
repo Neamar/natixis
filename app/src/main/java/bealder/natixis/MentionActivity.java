@@ -12,5 +12,7 @@ public class MentionActivity extends Activity {
 				setContentView(R.layout.activity_webview);
 
 				new MixinMenuActivity().addMenuListeners(this);
+
+
 		}
 }
