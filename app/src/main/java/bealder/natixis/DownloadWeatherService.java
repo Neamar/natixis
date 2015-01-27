@@ -1,4 +1,4 @@
-package bealder.tourmalet;
+package bealder.natixis;
 
 import android.app.Service;
 import android.content.Intent;

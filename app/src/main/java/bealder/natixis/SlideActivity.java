@@ -1,4 +1,4 @@
-package bealder.tourmalet;
+package bealder.natixis;
 
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentStatePagerAdapter;

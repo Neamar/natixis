@@ -1,35 +1,24 @@
-package bealder.tourmalet;
+package bealder.natixis;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
-import android.widget.TextView;
 
 
-public class WeatherActivity extends SlideActivity {
+public class TutorialActivity extends SlideActivity {
 		/**
-		 * The number of weather station to show
+		 * The number of pages to show in this tutorial.
 		 */
-		private final int NUM_PAGES = DownloadWeatherService.STATIONS.length;
+		private final int NUM_PAGES = 3;
 
 		@Override
 		protected void onCreate(Bundle savedInstanceState) {
 				super.onCreate(savedInstanceState);
-				setContentView(R.layout.activity_weather);
-
-				new MixinMenuActivity().addMenuListeners(this);
-
-				TextView dateText = (TextView) findViewById(R.id.date);
-
-				String dateString = DownloadWeatherService.getCurrentDateFormatted();
-
-				dateString = dateString.substring(0, 1).toUpperCase() + dateString.substring(1).toLowerCase();
-				dateText.setText(dateString);
+				setContentView(R.layout.activity_tutorial);
 
 				initPager(new ScreenSlidePagerAdapter(getSupportFragmentManager()));
 		}
-
 
 		protected class ScreenSlidePagerAdapter extends FragmentStatePagerAdapter {
 				public ScreenSlidePagerAdapter(FragmentManager fm) {
@@ -41,7 +30,7 @@ public class WeatherActivity extends SlideActivity {
 						Bundle bundle = new Bundle();
 						bundle.putInt("page", position);
 
-						Fragment page = new WeatherSlideFragment();
+						Fragment page = new TutorialSlideFragment();
 						page.setArguments(bundle);
 						return page;
 				}
