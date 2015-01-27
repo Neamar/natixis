@@ -5,10 +5,19 @@
                 android:background="#afdce6"
                 tools:context=".ContactActivity">
 
+    <WebView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/webView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
     <include
         android:id="@+id/menu"
         layout="@layout/layout_menu"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"/>
+
 </RelativeLayout>

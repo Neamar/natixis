@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Natixis.iml" filepath="$PROJECT_DIR$/Natixis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Tourmalet.iml" filepath="$PROJECT_DIR$/Tourmalet.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
