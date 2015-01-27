@@ -1,60 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
+<LinearLayout
+    android:id="@+id/menuView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:background="#581d74"
+    android:orientation="vertical"
+    >
 
     <LinearLayout
-        android:id="@+id/menuView"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:orientation="vertical"
-        >
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:paddingRight="10dp"
+        android:weightSum="1">
 
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="0dp"
-            android:layout_weight="3"
-            />
+        <ImageView
+            android:id="@+id/menu_welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:src="@drawable/menu_home"/>
 
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="0dp"
-            android:layout_weight="4"
-            android:background="#581d74"
-            android:gravity="center"
-            android:paddingRight="10dp"
-            android:weightSum="1">
-
-            <ImageView
-                android:id="@+id/menu_welcome"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:paddingLeft="20dp"
-                android:paddingRight="20dp"
-                android:src="@drawable/menu_home"/>
-
-            <ImageView
-                android:id="@+id/menu_about"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingLeft="20dp"
-                android:paddingRight="20dp"
-                android:src="@drawable/menu_about"/>
+        <ImageView
+            android:id="@+id/menu_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:src="@drawable/menu_about"/>
 
 
-            <ImageView
-                android:id="@+id/menu_mentions"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingLeft="20dp"
-                android:paddingRight="20dp"
-                android:src="@drawable/menu_mentions"/>
-        </LinearLayout>
+        <ImageView
+            android:id="@+id/menu_mentions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:src="@drawable/menu_mentions"/>
     </LinearLayout>
-
-
-</RelativeLayout>
+</LinearLayout>

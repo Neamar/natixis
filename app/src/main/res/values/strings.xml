@@ -5,8 +5,4 @@
     <string name="title_activity_tutorial">Natixis</string>
     <string name="title_activity_about">Infos</string>
     <string name="title_activity_mentions">Mentions légales</string>
-    <string name="contact"><![CDATA[Posez-nous toutes vos questions sur Twitter <big><a href="https://twitter.com/GrandTourmalet">@grandtourmalet</a></big> et <big><a href="https://twitter.com/hashtag/grandtourmalet">#grandtourmalet</a></big> de 8h00 à 21h30 tous les jours]]></string>
-    <string name="contact_raw">Posez-nous toutes vos questions sur Twitter @grandtourmalet et #grandtourmalet de 8h00 à 21h30 tous les jours</string>
-    <string name="telephones"><![CDATA[<b>La Mongie : 05 62 91 94 15<br>Barèges : 05 62 92 16 00</b><br>Bagnères : 05 62 95 50 71<br>Campan : 05 62 91 70 36]]></string>
-    <string name="telephones_raw">La Mongie : 05 62 91 94 15\nBarèges : 05 62 92 16 00\nBagnères : 05 62 95 50 71\nCampan : 05 62 91 70 36</string>
 </resources>
