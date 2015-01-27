@@ -28,7 +28,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="dans le monde digital"
+            android:text="dans le monde Digital"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textColor="#000000"/>
 
