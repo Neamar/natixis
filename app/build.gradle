@@ -8,7 +8,7 @@ android {
         applicationId "bealder.natixis"
         minSdkVersion 15
         targetSdkVersion 21
-        versionCode 2
+        versionCode 1
         versionName "0.9"
     }
     buildTypes {

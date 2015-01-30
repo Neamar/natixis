@@ -25,7 +25,7 @@
 
         <ImageView
             android:id="@+id/dot_2"
-            android:layout_widtactih="wrap_content"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/dot"/>
 
